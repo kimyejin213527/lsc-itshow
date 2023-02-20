@@ -3,7 +3,7 @@ import React from 'react';
 function Condition(props) {
     return (
         <>
-            <h1>테스트 페이지</h1>
+            <h1>컨디션 테스트 페이지</h1>
         </>
     )
 }
