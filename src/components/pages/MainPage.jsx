@@ -1,11 +1,12 @@
 import React from 'react';
+import Slider from '../ui/Slider';
 
-function MainPage(props) {
+function Main(props) {
     return (
         <>
-            <h1>메인 페이지</h1>
+            <Slider/>
         </>
     )
 }
 
-export default MainPage;
+export default Main;

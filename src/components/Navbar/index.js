@@ -39,13 +39,11 @@ const NavMenu = styled.div`
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-margin-right: -24px;
 width: 100vw;
 @media screen and (max-width: 768px) {
 	display: none;
 }
 `;
-
 
 const Bars = styled(FaBars)`
 display: none;
