@@ -73,6 +73,11 @@ const DropdownContainer = styled.div`
 
 const DropdownButton = styled.div`
   cursor: pointer;
+
+  &:hover {
+    color: black;
+    transition: all 0.5s;
+  }
 `;
 
 const Menu = styled.div`
@@ -137,6 +142,11 @@ const Li = styled.li`
 const LinkWrapper = styled.a`
   text-decoration: none;
   color: white;
+
+  &:hover {
+    color: black;
+    transition: all 0.5s;
+  }
 `;
 
 const Logout = styled.div`
@@ -144,4 +154,9 @@ const Logout = styled.div`
   display: block;
   text-decoration: none;
   color: white;
+
+  &:hover {
+    color: black;
+    transition: all 0.5s;
+  }
 `;

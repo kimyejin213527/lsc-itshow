@@ -35,11 +35,10 @@ const Slider = () => {
                 <Button onClick={() => { moveSlide(-1); }}> <FontAwesomeIcon icon={faChevronLeft} /></Button>
                 <Window>
                 <ImgWrapper style={style}>
-                    {contents.current.map((img, i) => (
-                    <Img
-                        key={i}
-                        style={{ backgroundImage: `url(${img.src})` }}
-                    ></Img>
+                    {contents.current.map((content, i) => (
+                        <Img
+                            key={i}
+                            style={{ backgroundImage: `url(${content.src})` }}/>
                     ))}
                 </ImgWrapper>
                 </Window>

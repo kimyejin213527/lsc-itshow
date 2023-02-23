@@ -18,6 +18,10 @@ const StyledCard = styled.div`
     align-items: center;
     white-space: pre-wrap;
     text-align: center;
+
+    &:hover {
+        box-shadow: 3px 4px 5px grey;
+    }
 `;
 
 export default Card;
