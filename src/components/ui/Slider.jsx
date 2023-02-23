@@ -62,9 +62,10 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 90vw;
     height: 80vh;
     user-select: none;
+    margin-top: 40px;
 `;
 
 const Container = styled.div`

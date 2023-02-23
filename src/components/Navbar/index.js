@@ -22,7 +22,6 @@ const Navbar = () => {
 
 const Nav = styled.nav`
 background: #558B2F;
-width: 100vw;
 height: 60px;
 display: flex;
 justify-content: space-around;
