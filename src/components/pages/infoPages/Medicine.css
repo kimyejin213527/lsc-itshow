@@ -1,0 +1,56 @@
+main {
+    margin: 88px 32px 44px;  /* 요즘에는 여백을 많이 주는게 훌륭한 디자인이다 */
+    display: flex;  /* card 3개 수평 정렬 */
+    justify-content: center;  /* card 3개 가운데 정렬 */
+    column-gap: 60px;
+    row-gap: 40px;
+    flex-wrap: wrap;  /* 너비 좁아지면, 내리자 */
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.card {
+    background-color: #F7B0B0;
+    border-radius: 1rem;
+    flex: 1 0 240px;
+    max-width: 300px;  /* 최대 너비 : 300px */
+    height: 340px;
+    transition: .4s;
+}
+
+.now, 
+.card:hover {
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.25);
+}
+
+/* .now .card-time, 
+.card:hover .card-time {
+    color: var(--second-color);
+} */
+
+.card-image {
+    background: url("./med.png") center center;  /* 가운데를 중심으로 확대, 축소 */
+    background-size: cover;  /* 배경을 꽉차게 */
+    height: 0;
+    padding-bottom: 66.66666667%;
+    /* border-radius: 1rem 1rem 0 0; */
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 16px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;  /* 날짜 | 식 가운데 정렬 */
+    column-gap: 16px;
+}
+
+.card-menu {
+    text-align: center;  /* 메뉴 가운데 정렬 */
+}

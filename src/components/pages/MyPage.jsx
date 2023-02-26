@@ -11,6 +11,7 @@ function MyPage(props) {
             <p>아이디 : <br /> 이름 : <br /> 나이 : <br /> 성별 : <br /> 이메일 : </p>
             <Img />
 
+
         </>
     )
 }
